@@ -38,3 +38,15 @@ public:
     }
 };
 
+int main ()
+{
+    Mahasiswa mhs1;
+    Mahasiswa mhs2(100);
+    Mahasiswa mhs3("jordy");
+    Mahasiswa mhs4(110, "kiko");
+
+    mhs1.cetak();
+    mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+}
